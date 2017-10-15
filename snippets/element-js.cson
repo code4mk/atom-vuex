@@ -3,7 +3,7 @@
 #                Core  vuex                          #
 #####################################################
 
-'source.js':
+'.source.js':
 
   "vuex function->Vuex":
     "prefix": "vxe-f"

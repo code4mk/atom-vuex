@@ -3,7 +3,7 @@
 #                Core  vuex                          #
 #####################################################
 
-'source.js':
+'.source.js':
 
   "state->Vuex":
     "prefix": "vx-state"

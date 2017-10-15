@@ -3,7 +3,7 @@
 #                Basic vuex                          #
 #####################################################
 
-'source.js':
+'.source.js':
 
   "import vuex (p) ->Vuex":
     "prefix": "vxi-vuex"
