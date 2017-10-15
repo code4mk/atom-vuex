@@ -1,0 +1,26 @@
+########################################################
+#            Atom Vuex Snippet                        #
+#                Core  vuex                          #
+#####################################################
+
+'source.js':
+
+  "vuex function->Vuex":
+    "prefix": "vxe-f"
+    "body": """
+    meFunction: state => {
+      $1
+    }
+    """
+  "action function->Vuex":
+    "prefix": "vxe-af"
+    "body": """
+    meFunction: context => {
+      $1
+    }
+    """
+  "action ->Vuex":
+    "prefix": "vxe-a"
+    "body": """
+    context.commit('$1')
+    """

@@ -1,0 +1,75 @@
+########################################################
+#            Atom Vuex Snippet                        #
+#                Access vuex                         #
+#####################################################
+
+".text.html.vue":
+
+  "state return->Vuex":
+    "prefix": "vxr-state"
+    "body": """
+    return this.$store.state.$1
+    """
+  "getters return->Vuex":
+    "prefix": "vxr-getters"
+    "body": """
+    return this.$store.getters.$1
+    """
+  "mutations return->Vuex":
+    "prefix": "vxr-mutations"
+    "body": """
+    this.$store.commit('$1')
+    """
+  "mutations return->Vuex":
+    "prefix": "vxr-mutations"
+    "body": """
+    this.$store.dispatch('$1')
+    """
+  "import mapActions (c) ->Vuex":
+    "prefix": "vxi-mapActions"
+    "body": """
+    import { mapActions } from 'vuex'
+    """
+  "import mapGetters (c) ->Vuex":
+    "prefix": "vxi-mapGetters"
+    "body": """
+    import { mapGetters } from 'vuex'
+    """
+  "import mapState (c) ->Vuex":
+    "prefix": "vxi-mapState"
+    "body": """
+    import { mapState } from 'vuex'
+    """
+  "import mapMutations (c) ->Vuex":
+    "prefix": "vxi-mapMutations"
+    "body": """
+    import { mapMutations } from 'vuex'
+    """
+  "mapGetters ->Vuex":
+    "prefix": "vx-mapGetters"
+    "body": """
+    ...mapGetters([
+      '$1'
+    ])
+    """
+  "mapActions ->Vuex":
+    "prefix": "vx-mapActions"
+    "body": """
+    ...mapActions([
+      '$1'
+    ])
+    """
+  "mapMutations ->Vuex":
+    "prefix": "vx-mapMutations"
+    "body": """
+    ...mapMutations([
+      '$1'
+    ])
+    """
+  "mapState ->Vuex":
+    "prefix": "vx-mapState"
+    "body": """
+    ...mapState([
+      '$1'
+    ])
+    """

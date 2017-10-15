@@ -1,0 +1,35 @@
+########################################################
+#            Atom Vuex Snippet                        #
+#                Basic vuex                          #
+#####################################################
+
+'source.js':
+
+  "import vuex (p) ->Vuex":
+    "prefix": "vxi-vuex"
+    "body": """
+    import Vue from 'vue'
+    import Vuex from 'vuex'
+    """
+  "import store (c) ->Vuex":
+    "prefix": "vxi-store"
+    "body": """
+    import { store } from './store/$1'
+    """
+  "use vuex ->Vuex":
+    "prefix": "vx-use"
+    "body": """
+    Vue.use(Vuex)
+    """
+  "export new ->Vuex":
+    "prefix": "vx-new"
+    "body": """
+     export const store = new Vuex.Store({
+       $1
+     })
+    """
+  "store ->Vuex":
+    "prefix": "vx-store"
+    "body": """
+     store: store$1
+    """

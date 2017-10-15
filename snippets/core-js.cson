@@ -1,0 +1,28 @@
+########################################################
+#            Atom Vuex Snippet                        #
+#                Core  vuex                          #
+#####################################################
+
+'source.js':
+
+  "state->Vuex":
+    "prefix": "vx-state"
+    "body": """
+    state: {
+      $1
+    }
+    """
+  "getters->Vuex":
+    "prefix": "vx-getters"
+    "body": """
+    getters: {
+      $1
+    }
+    """
+  "mutations->Vuex":
+    "prefix": "vx-mutations"
+    "body": """
+    mutations: {
+      $1
+    }
+    """
