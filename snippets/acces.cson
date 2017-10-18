@@ -20,8 +20,8 @@
     "body": """
     this.$store.commit('$1')
     """
-  "mutations return->Vuex":
-    "prefix": "vxr-mutations"
+  "actions return->Vuex":
+    "prefix": "vxr-actions"
     "body": """
     this.$store.dispatch('$1')
     """
